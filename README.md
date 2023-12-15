@@ -1,1 +1,1 @@
-# ComputerScience
+This project uses LSH and hierachical clustering to detect duplicates from the given data set: https://personal.eur.nl/frasincar/datasets/TVs-allmerged.zip. The LSH function is developed independently in the functions.R, while code.R reads data and perfroms boostraping. To run the algorithm you need to put data folder (unziped) in the same folder as the codes. Then you can source code.R and waith till the graphs are printed in the cosole. Also, code saves some intermediate results every iteration of the boostrap sample. 
